@@ -1,6 +1,8 @@
 package ems.employee;
 import java.util.*;
 import java.io.Serializable;
+
+//Employee POJO class(Entity/ DTO-Data Transactional class)
 public class Employee implements Serializable {
 	private String name;
 	private int employeeId;
@@ -13,7 +15,7 @@ public class Employee implements Serializable {
 	private	int grossPay;
 	private double netPay;
 	
-
+//Non Parametric and Parametric Constructors
 	public Employee(){
 		
 	}
@@ -29,7 +31,7 @@ public class Employee implements Serializable {
 		this.pf = pf;
 	}
 		
-     
+     //Setter and Getter Methods
 
 		public String getName() {
 			return name;
